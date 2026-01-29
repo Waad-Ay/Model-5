@@ -1,0 +1,74 @@
+.container {
+  background: #f0f0f5;
+  min-height: 100vh;
+  padding: 40px 20px; /* ↓ reduced padding */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.controlBox {
+  max-width: 900px;
+  margin: 0 auto 30px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.controlBox h3 {
+  margin-bottom: 15px;
+}
+
+.controlBox input,
+.controlBox select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.controlBox button {
+  padding: 10px 16px;
+  background: #f06727;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.controlBox button:hover {
+  background: #ca4e38;
+}
+
+.tableContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th {
+  text-align: center;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+  background: #f9fafb;
+}
+
+.td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
